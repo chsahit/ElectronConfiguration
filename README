@@ -1,0 +1,1 @@
+This program is used to calculate the electron configuration of an atom. The electron configuration lists how many electrons an atom has and which orbital they are located in. It takes the symbol for the desired atom as input. It is run by using the python compiler on the econfig.py file.
