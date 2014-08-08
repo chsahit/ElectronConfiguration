@@ -69,7 +69,7 @@ if __name__=="__main__":
 	print "Enter the symbol of an element on the periodic table"
 	input=raw_input()
 	try:
-		con=lite.connect("~/documents/econf/pt")
+		con=lite.connect("~/econf/pt")
 		cur=con.cursor()
 		cur.execute("SELECT atomicnumber FROM elements WHERE symbol='%s';"%input)
 		data=cur.fetchone()
